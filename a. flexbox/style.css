@@ -1,0 +1,34 @@
+:root{
+	font-size: 62.5%;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 5rem;
+	width:70vw;
+	height:70vh;
+	background-color:#021017;
+}
+
+.itens{
+	width:100px;
+	height:100px;
+}
+
+.azul{
+	background-color:#6bd1ff;
+	order: 3;
+}
+
+.amarelo{
+	background-color:#ffba05;
+	order: 1;
+}
+
+.vermelho{
+	background-color:#f16165;
+	order: 2;
+}
