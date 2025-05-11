@@ -1,3 +1,7 @@
+:root {
+	font-size: 68.5%;
+}
+
 body {
 	font-family: "Inter";
 	background-color: #E4EDE3;
@@ -11,4 +15,31 @@ body {
 	text-align: center;
 	border-radius: 5px;
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard {
+	display: flex;
+	gap: .8rem;
+	justify-content: center;
+	align-items: center;
+}
+
+.card1 { 
+    flex: 1 1 20%; 
+    order: 2; 
+} 
+ 
+.card2 {
+    flex:1 1 20%;
+    order: 3; 
+}
+ 
+.card3 { 
+    flex: 2 0 40%;
+    order: 1; 
+} 
+ 
+.card4 { 
+    flex: 0 2 10%;
+    order: 4; 
 }

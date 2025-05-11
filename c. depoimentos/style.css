@@ -1,18 +1,32 @@
+:root{
+	font-size: 62.5%;
+}
+
 .depoimentos { 
-	padding: 20px;
+	padding: 2rem;
 	font-family:"Roboto";
+	font-size: 1.5rem;
+
+	display: flex;
+	gap: 2.4rem;
 } 
 
 .card { 
 	background-color: #FEF4F9;
-	padding: 0 15px 15px;
-	width:250px;
+	padding: 0 1.5rem 1.5rem;
+	width: 30rem;
+
+	display: flex;
+	gap: 1.6rem;
 } 
 
 .card img{
-	margin-top:15px;
+	width: 6.4rem;
+	height: 6.4rem;
+	margin-top:1.5rem;;
 }
 
 .mensagem span{
 	font-weight:500;
+	font-size: 1.8rem;
 }

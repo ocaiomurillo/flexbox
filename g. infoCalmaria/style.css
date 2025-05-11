@@ -1,15 +1,39 @@
-h2{
-	width:400px;
+:root{
+	font-size: 62.5%;
+}
+
+h2{	width: 58rem;
 	font-family:"Krona One";
+	font-size: 3.1rem;
 	color:#4E75FF;
 }
 
 p{
-	width:400px;
+	width: 58rem;
 	font-family:"Montserrat";
+	font-size: 2.2rem;
 	color: #0C0421;
 }
 
-.informacoes img{
-	width:300px;
+.informacoes {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.imagem {
+	width: 50rem;
+	height: 32rem;
+}
+
+.informacao{
+	padding: 4rem 0;
+	display: flex;
+	align-items: center;
+	gap: 10rem;
+}
+
+.informacao-2{
+	flex-direction: row-reverse;
 }
